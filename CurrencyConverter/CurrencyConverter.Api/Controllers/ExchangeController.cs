@@ -19,8 +19,8 @@ namespace CurrencyConverter.Api.Controllers
             _targetAmountConverter = targetAmountConverter;
         }
 
-        // GET:<Exchange/Convert?source=GBP&target=CAD&amount=50>
-        [HttpGet("Convert")]
+        // GET:<exchange/convert?source=GBP&target=CAD&amount=50>
+        [HttpGet("convert")]
         public async Task<IActionResult> Get(string source, string target, double amount)
         {
             try

@@ -12,15 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "Exchange",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "CurrencyConverter.Api": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "exchange",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
